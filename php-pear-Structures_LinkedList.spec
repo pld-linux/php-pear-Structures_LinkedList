@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - Implements singly and doubly-linked lists
 Summary(pl.UTF-8):	%{_pearname} - implementacja jedno- i dwukierunkowych list
 Name:		php-pear-%{_pearname}
-Version:	0.1.4
+Version:	0.2.2
 Release:	1
 License:	Apache v2.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	c2a75c6acf1307c885649ae532725242
+# Source0-md5:	e693c54ff0d812e7c91197d1108f3fa4
 URL:		http://pear.php.net/package/Structures_LinkedList/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
@@ -38,9 +38,9 @@ Ta klasa ma w PEAR status: %{_status}.
 Summary:	Tests for PEAR::%{_pearname}
 Summary(pl.UTF-8):	Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
-AutoReq:	no
 Requires:	%{name} = %{version}-%{release}
 AutoProv:	no
+AutoReq:	no
 
 %description tests
 Tests for PEAR::%{_pearname}.
