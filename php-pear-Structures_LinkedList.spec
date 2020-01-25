@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Structures
 %define		_subclass	LinkedList
 %define		_status		beta
