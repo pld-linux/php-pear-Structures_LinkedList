@@ -7,7 +7,7 @@ Summary:	%{_pearname} - Implements singly and doubly-linked lists
 Summary(pl.UTF-8):	%{_pearname} - implementacja jedno- i dwukierunkowych list
 Name:		php-pear-%{_pearname}
 Version:	0.2.2
-Release:	2
+Release:	3
 License:	Apache v2.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
